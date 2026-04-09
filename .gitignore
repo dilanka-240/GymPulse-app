@@ -26,3 +26,6 @@ replay_pid*
 # Ignore uploads folder but keep .gitkeep
 backend/uploads/*
 !backend/uploads/.gitkeep
+
+# Local VS Code debug config can contain secrets
+.vscode/launch.json
